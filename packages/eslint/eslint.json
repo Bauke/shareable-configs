@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json.schemastore.org/eslintrc.json",
+  "extends": [
+    "plugin:prettier/recommended"
+  ],
+  "overrides": [
+    {
+      "extends": [
+        "plugin:astro/recommended"
+      ],
+      "files": [
+        "**/*.astro"
+      ],
+      "parser": "astro-eslint-parser",
+      "parserOptions": {
+        "parser": "@typescript-eslint/parser",
+        "extraFileExtensions": [
+          ".astro"
+        ]
+      },
+      "rules": {
+        "unicorn/text-encoding-identifier-case": "off"
+      }
+    },
+    {
+      "extends": [
+        "plugin:mdx/recommended"
+      ],
+      "files": [
+        "**/*.mdx"
+      ],
+      "rules": {
+        "no-unused-expressions": [
+          "error",
+          {
+            "enforceForJSX": false
+          }
+        ]
+      }
+    }
+  ],
+  "rules": {
+    "quotes": [
+      "error",
+      "double"
+    ]
+  }
+}

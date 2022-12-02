@@ -1,0 +1,28 @@
+{
+  "name": "test-samples",
+  "license": "Unlicense",
+  "private": true,
+  "scripts": {
+    "lint": "xo && stylelint '**/*.scss'"
+  },
+  "devDependencies": {
+    "@bauke/eslint-config": "workspace:*",
+    "@bauke/prettier-config": "workspace:*",
+    "@bauke/stylelint-config": "workspace:*",
+    "stylelint": "^14.15.0",
+    "xo": "^0.53.1"
+  },
+  "prettier": "@bauke/prettier-config",
+  "stylelint": {
+    "extends": "@bauke/stylelint-config"
+  },
+  "xo": {
+    "extensions": [
+      "astro",
+      "mdx",
+      "ts"
+    ],
+    "extends": "@bauke/eslint-config",
+    "space": true
+  }
+}

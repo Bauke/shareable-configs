@@ -1,0 +1,17 @@
+{
+  "name": "@bauke/prettier-config",
+  "description": "Shareable Prettier configuration.",
+  "version": "0.1.0",
+  "license": "Unlicense",
+  "type": "module",
+  "main": "prettier.json",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "prettier-plugin-astro": "^0.7.0"
+  },
+  "peerDependencies": {
+    "prettier-plugin-astro": "^0.7.0"
+  }
+}

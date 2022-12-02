@@ -1,0 +1,9 @@
+body {
+  --background: #010203;
+
+  font-size: 1rem;
+
+  &::after {
+    content: "Sample SCSS";
+  }
+}
