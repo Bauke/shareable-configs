@@ -1,7 +1,7 @@
 {
   "name": "@bauke/prettier-config",
   "description": "Shareable Prettier configuration.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "Unlicense",
   "repository": "https://git.bauke.xyz/Bauke/shareable-configs",
   "type": "module",
