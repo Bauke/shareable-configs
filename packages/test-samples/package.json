@@ -3,7 +3,7 @@
   "license": "Unlicense",
   "private": true,
   "scripts": {
-    "lint": "xo && stylelint '**/*.scss'"
+    "lint": "xo --extension astro ; xo --extension mdx ; stylelint '**/*.scss'"
   },
   "devDependencies": {
     "@bauke/eslint-config": "workspace:*",
@@ -17,12 +17,8 @@
     "extends": "@bauke/stylelint-config"
   },
   "xo": {
-    "extensions": [
-      "astro",
-      "mdx",
-      "ts"
-    ],
     "extends": "@bauke/eslint-config",
+    "prettier": true,
     "space": true
   }
 }
