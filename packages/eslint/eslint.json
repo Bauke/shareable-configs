@@ -32,7 +32,8 @@
           {
             "enforceForJSX": false
           }
-        ]
+        ],
+        "no-unused-vars": "off"
       }
     }
   ],
