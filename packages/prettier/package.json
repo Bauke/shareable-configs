@@ -10,9 +10,9 @@
     "access": "public"
   },
   "devDependencies": {
-    "prettier-plugin-astro": "^0.7.0"
+    "prettier-plugin-astro": "^0.10.0"
   },
   "peerDependencies": {
-    "prettier-plugin-astro": "^0.7.0"
+    "prettier-plugin-astro": "^0.10.0"
   }
 }

@@ -9,8 +9,8 @@
     "@bauke/eslint-config": "workspace:*",
     "@bauke/prettier-config": "workspace:*",
     "@bauke/stylelint-config": "workspace:*",
-    "stylelint": "^14.15.0",
-    "xo": "^0.53.1"
+    "stylelint": "^15.7.0",
+    "xo": "^0.54.2"
   },
   "prettier": "@bauke/prettier-config",
   "stylelint": {
