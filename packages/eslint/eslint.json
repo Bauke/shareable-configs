@@ -38,6 +38,7 @@
     }
   ],
   "rules": {
+    "no-await-in-loop": "off",
     "quotes": [
       "error",
       "double"
