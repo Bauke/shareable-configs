@@ -4,7 +4,6 @@
     "stylelint-config-standard-scss"
   ],
   "rules": {
-    "no-descending-specificity": null,
-    "string-quotes": "double"
+    "no-descending-specificity": null
   }
 }
