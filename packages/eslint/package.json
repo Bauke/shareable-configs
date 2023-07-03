@@ -1,7 +1,7 @@
 {
   "name": "@bauke/eslint-config",
   "description": "Shareable ESLint configuration.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "license": "Unlicense",
   "repository": "https://git.bauke.xyz/Bauke/shareable-configs",
   "type": "module",
